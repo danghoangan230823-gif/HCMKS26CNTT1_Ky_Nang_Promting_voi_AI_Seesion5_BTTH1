@@ -1,17 +1,12 @@
 
 # **BÀI THỰC HÀNH 1: LẬP KẾ HOẠCH TÀI CHÍNH CÁ NHÂN BẰNG CHAIN-OF-THOUGHT**
 
-## **1. Mục tiêu**
 
-Sử dụng kỹ thuật Chain-of-Thought để giúp AI lập kế hoạch tài chính cá nhân, tính toán thu nhập, chi phí, trả nợ và tiết kiệm.
-
-Đảm bảo các phép tính chính xác, ngân sách hợp lý và tổng tỷ lệ phân bổ bằng 100%.
-
-## **2. Prompt thiết kế**
+## **1. Prompt thiết kế**
 
 **Prompt sử dụng:**
 
-Bạn là chuyên gia tư vấn tài chính cá nhân.
+Bạn là chuyên gia về tài chính cá nhân.
 
 Hãy lập kế hoạch tài chính hàng tháng dựa trên dữ liệu sau:
 
@@ -51,9 +46,9 @@ Bước 4: Chia số tiền còn lại theo quy tắc 50/30/20 cải tiến:
 2. Bảng ngân sách Markdown gồm: Hạng mục, Số tiền, Tỷ lệ %, Ghi chú.
 3. Kết luận và đề xuất tiết kiệm.
 
-## **3. Kết quả chạy thử**
+## **2. Kết quả chạy thử**
 
-### **3.1. Phân tích tính toán**
+### **2.1. Phân tích tính toán**
 
 **Bước 1: Tính thu nhập khả dụng**
 
@@ -88,7 +83,7 @@ Bước 4: Chia số tiền còn lại theo quy tắc 50/30/20 cải tiến:
 - Mong muốn cá nhân: 5.200.000 × 30% = 1.560.000 VNĐ.
 - Quỹ dự phòng: 5.200.000 × 20% = 1.040.000 VNĐ.
 
-### **3.2. Bảng phân bổ ngân sách**
+### **2.2. Bảng phân bổ ngân sách**
 
 | Hạng mục                  | Số tiền (VNĐ)  | Tỷ lệ %  | Ghi chú              |
 | ------------------------- | -------------- | -------- | -------------------- |
@@ -101,7 +96,7 @@ Bước 4: Chia số tiền còn lại theo quy tắc 50/30/20 cải tiến:
 | Quỹ dự phòng              | 1.040.000      | 7,43%    | Chi phí bất ngờ      |
 | **Tổng cộng**             | **15.000.000** | **100%** |                      |
 
-## **4. Kết luận**
+## **3. Kết luận**
 
 Qua bài thực hành, em đã sử dụng kỹ thuật Chain-of-Thought để chia bài toán tài chính thành các bước nhỏ, giúp AI tính toán và kiểm tra ngân sách có hệ thống.
 

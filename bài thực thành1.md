@@ -111,4 +111,43 @@ Kết quả cho thấy:
 - Đảm bảo thanh toán khoản nợ 2.000.000 VNĐ.
 - Có ngân sách dành cho chi tiêu và dự phòng.
 - Tổng tỷ lệ phân bổ đạt 100%.
+# PROMPT LẬP KẾ HOẠCH TÀI CHÍNH CÁ NHÂN THEO CREATE
 
+**C – Context (Bối cảnh):**
+
+Bạn là chuyên gia tư vấn tài chính cá nhân, có kinh nghiệm quản lý ngân sách, tiết kiệm và kiểm soát nợ.
+
+**R – Request (Yêu cầu):**
+
+Hãy lập kế hoạch tài chính hàng tháng dựa trên dữ liệu thu nhập, chi phí cố định, khoản nợ và mục tiêu tiết kiệm. Đưa ra phương án phân bổ ngân sách hợp lý.
+
+**E – Examples (Ví dụ):**
+
+Ví dụ dữ liệu:
+- Thu nhập: 15.000.000 VNĐ.
+- Thuế: 1.000.000 VNĐ.
+- Chi phí cố định: 4.000.000 VNĐ.
+- Khoản nợ: 2.000.000 VNĐ.
+- Mục tiêu tiết kiệm: 20%.
+
+**A – Audience (Đối tượng):**
+
+Người có thu nhập hàng tháng, muốn quản lý chi tiêu, trả nợ đúng hạn và xây dựng thói quen tiết kiệm.
+
+**T – Tone (Giọng điệu):**
+
+Trình bày chuyên nghiệp, dễ hiểu, ngắn gọn, sử dụng ngôn ngữ phù hợp với sinh viên.
+
+**E – Execution (Cách thực hiện):**
+
+1. Tính thu nhập sau thuế.
+2. Trừ chi phí cố định và khoản nợ.
+3. Tính khoản tiết kiệm tối thiểu 20% thu nhập sau thuế.
+4. Phân bổ phần tiền còn lại theo quy tắc 50/30/20 cải tiến.
+5. Kiểm tra tổng số tiền và tỷ lệ phân bổ phải bằng 100%.
+6. Nếu dữ liệu thiếu hoặc không hợp lệ, thông báo thay vì tự giả định.
+
+**Định dạng đầu ra:**
+- Phân tích các phép tính theo từng bước.
+- Bảng Markdown gồm: Hạng mục, Số tiền, Tỷ lệ %, Ghi chú.
+- Đưa ra kết luận và đề xuất cải thiện tài chính.
